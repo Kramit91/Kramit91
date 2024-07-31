@@ -36,6 +36,6 @@ spec:
           serviceAccount: completed-pod-cleanup
           serviceAccountName: completed-pod-cleanup
           terminationGracePeriodSeconds: 30
-  schedule: '10 * * * *' # change the schedule time
+  schedule: '05 * * * *' # change the schedule time
   suspend: false
 status: {}
