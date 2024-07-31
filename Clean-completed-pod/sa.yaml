@@ -2,6 +2,6 @@ kind: ServiceAccount
 apiVersion: v1
 metadata:
   name: completed-pod-cleanup
-  namespace: ocp-completed-pod-cleanup
+  namespace: clean-completed-pod
   labels:
     app: completed-pod-cleanup
