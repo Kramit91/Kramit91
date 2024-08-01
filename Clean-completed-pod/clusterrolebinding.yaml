@@ -7,8 +7,8 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: completed-pod-cleanup
-    namespace: clean-completed-pods
+    namespace: ocp-completed-pod-cleanup
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: completed-pod-cleanup
+  name: cluster-completed-pod-cleanup
