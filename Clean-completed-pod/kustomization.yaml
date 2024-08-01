@@ -5,4 +5,4 @@ resources:
   - completed-pod-cleanup-cron.yaml
   - sa.yaml
   - clusterrolebinding.yaml
-  -clusterrole.yaml
+  - clusterrole.yaml
