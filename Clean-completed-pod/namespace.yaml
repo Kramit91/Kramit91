@@ -1,4 +1,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: ocp-completed-pod-cleanup
+  name: clean-completed pods
